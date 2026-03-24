@@ -1,3 +1,7 @@
 a=2
-b=3
-print(a+b)
+c=5
+while True:
+    c=c+a
+    if c==11:
+        break
+print(c)
